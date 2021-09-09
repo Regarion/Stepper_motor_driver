@@ -21,4 +21,4 @@ speed delay(seconds) = (60 * step angle) / (speed _in_RPM * FULL_Rotation_angle)
 
 CPU cycles required to calculate the speed delay:
 
-step_cycles = (Frequency of processor) / (speed_delay)
+step_cycles = (Frequency of processor) / (1 / speed_delay)
