@@ -16,7 +16,9 @@ The Instructions and Assumptions made while creating this Driver:
 ![image](https://user-images.githubusercontent.com/90426334/132776054-18f89078-9daa-4ae4-9b74-e2cd8d63447f.png)
 
 The cycles required for Step Delay calculation:
+
 speed delay(seconds) = (60 * step angle) / (speed _in_RPM * FULL_Rotation_angle)
 
 CPU cycles required to calculate the speed delay:
+
 step_cycles = (Frequency of processor) / (speed_delay)
