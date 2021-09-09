@@ -13,12 +13,7 @@ The Instructions and Assumptions made while creating this Driver:
 8. The processor of the Microcontroller speed is assumed to be 84MHz.
 9. Timing diagram of the 4 pins.
 
-STEP	A	B	A\	B\	CW	CCW
------------------------------------------------------
-1	+	+	-	-	|	^
-2	-	+	+	-	|	|
-3	-	-	+	+	|	|
-4	+	-	-	+	v	|
+![image](https://user-images.githubusercontent.com/90426334/132776054-18f89078-9daa-4ae4-9b74-e2cd8d63447f.png)
 
 The cycles required for Step Delay calculation:
 speed delay(seconds) = (60 * step angle) / (speed _in_RPM * FULL_Rotation_angle)
